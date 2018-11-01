@@ -1,0 +1,54 @@
+header {
+    width: 100%;
+    text-align: center;
+    background:rgb(230, 170, 60);
+}
+body {
+    text-align: center;
+    background-image: url("images/animal-pattern-163783_1280.jpg");
+    background-position:center;
+    width:80%;
+    margin:auto;
+}
+.words{
+    background:rgb(230, 170, 60);
+}
+#mystery-word-blanks {
+    margin:auto;
+    text-align: center;
+    border-style: dashed;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+#letter-wrong {
+    margin:auto;
+    text-align: center;
+    border-style: dashed;
+    padding-top:10px;
+    padding-bottom: 10px;
+    
+}
+.information {
+    display: flex;
+    justify-content: center;
+    background: rgb(230, 170, 60);
+    margin-top: 10px;
+}
+#wins{
+    flex-wrap: wrap;
+    border-style: dashed;
+    margin:10px;
+    padding:10px;
+}
+#losses { 
+    flex-wrap: wrap;
+    border-style: dashed;
+    margin:10px;
+    padding:10px;
+}
+#lives {
+    flex-wrap: wrap;
+    border-style: dashed;
+    margin:10px;
+    padding: 10px;
+}
